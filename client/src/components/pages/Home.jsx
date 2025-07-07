@@ -1,5 +1,13 @@
+import HeroSection from "../HeroSection";
+import {MarqueeComponent} from "../MarqueeComponent";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HeroSection />;
+      <MarqueeComponent />
+    </>
+  );
 };
 
 export default Home;
