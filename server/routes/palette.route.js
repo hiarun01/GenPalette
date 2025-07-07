@@ -1,9 +1,9 @@
 // import express from 'express';
 import { Router } from 'express';
-import { generatePalette } from '../controllers/palettecontroller.js';
+import { codeReview } from '../controllers/palettecontroller.js';
 
 const router = Router()
-router.post('/generate', generatePalette);
+router.post('/generate', codeReview);
 
 export default router;
 
