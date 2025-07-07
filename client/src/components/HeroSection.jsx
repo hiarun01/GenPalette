@@ -1,11 +1,14 @@
-import React from "react";
 import {NavLink} from "react-router-dom";
 import {Button} from "./ui/button";
+import AnimatedText from "./AnimatedTage";
 
 const HeroSection = () => {
   return (
     <section className="container mx-auto px-5 py-10 md:py-10 text-center bg-white from-white via-gray-50 to-gray-100 rounded-xl ">
       {/* Main heading */}
+      <div>
+        <AnimatedText />
+      </div>
       <h1 className="md:text-6xl text-3xl font-extrabold tracking-tight mb-6 max-w-3xl mx-auto leading-tight">
         Let AI Paint Your Imagination
       </h1>
