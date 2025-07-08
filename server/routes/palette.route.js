@@ -1,14 +1,8 @@
 // import express from 'express';
-import { Router } from 'express';
-import { codeReview } from '../controllers/palettecontroller.js';
+import {Router} from "express";
+import {GeneratePalette} from "../controllers/palettecontroller.js";
 
-const router = Router()
-router.post('/generate', codeReview);
+const router = Router();
+router.post("/generate", GeneratePalette);
 
 export default router;
-
-
-
-
-
-
